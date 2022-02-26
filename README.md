@@ -45,6 +45,6 @@ Este projeto consiste em criar uma To Do List, permitindo:
 
 ## Melhorias
 
-- Armazenar no localStorage o histórico de novas tasks e ações tomadas pelo usuário, para que quando o mesmo saia e retorne a página, não perca suas tasks e evolução das mesmas;
+- Armazenar no localStorage o histórico de novas tasks e ações tomadas pelo usuário, para que quando o mesmo saia e retorne a página, não perca suas tasks e evolução das mesmas (funções iniciadas no código, porém não funcionam no momento);
 - Incluir botão e funcionalidade para editar as tasks ao invés de deletar e refazer;
 - Ajustes no HTML para que o site seja user friendly qualquer usuário (foco em usuários com deficiência).
