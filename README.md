@@ -14,7 +14,7 @@ Este projeto consiste em criar uma To Do List, permitindo:
 
 ## Como utilizar
 
-- Abra o [link](https://github.com/nascimeg/to-do-list-challenge);
+- Abra o [link](https://nascimeg.github.io/to-do-list/);
 - Digite uma nova task no campo para input em 'Add new task here';
 - Adicione esta task à lista de 'to-do' clicando no botão 'Add' que muda de cor ao passar o mouse por cima, note que demora 2 segundos para que a task seja de fato incluída;
 - Para mover a task para o status 'done', clique no quadradinho branco que é uma checkbox, note que não há espera de 2 segundos, a mudança é instantânea. Note também que ao mudar para o status 'done' a task fica fiscada e mais apagada em relação à página, pois não é mais o foco e não deve chamar atenção apesar de ainda ser visível;
