@@ -36,12 +36,13 @@ Este projeto consiste em criar uma To Do List, permitindo:
    - a função to-do segue a mesma lógica da função anterior porém invertendo os status, logo, uma task que encontra-se como done voltaria para o status 'to-do' e dentro desta função tem a lógica que mais um click na checkbox ative a fórmula anterior;
    - por fim temos a função delete que puxa todo o node do elemento pai (ul) e depois remove o filho da 'ul', remove todos os elementos que tem na linha (input da task, checkbox e botão delete).
 4) Em relação ao estilo da página:
-   - As cores foram definidas por escolha da dev puramente por preferência;
-   - Foi optado por dar destaque à nova task deixando-a logo abaixo do título, logo em seguida as tasks com status 'to do' com uma fonte que da contraste com o fundo da página justamente para trazer atenção para estas tasks e por último as tasks com status 'done' para ter um histórico, porém com a task 'riscada' indicando que foi feita e uma cor com menos contraste pois ela não deve mais ser o foco de atenção do usuário;
-   - Foi optado também por separar os diferentes status com uma linha mais grossa e com maior contraste e separar as tasks uma das outras também por uma linha, meramente por organização, porém a linha e o contraste é menor do que as que separam os status;
-   - Foi escolhido que um placeholder para o input ao invés de um header e que a borda do input fosse arredondada (preferências da dev);
-   - Buscando uma interface mais 'friendly' para o usuário, foi definido que os botões (add e delete) mudariam de cor ao passar o mouse em cima de forma que o botão se destacasse indicando sua função (foi associado vermelho para excluir uma task e verde para incluir);
-   - No scprit é puxado o parentNode dentro das funções que alteram o status da task para terem as formatações específicas de cada status via CSS utilizando classes.
+   - é um site responsivo;
+   - as cores foram definidas por escolha da dev puramente por preferência;
+   - foi optado por dar destaque à nova task deixando-a logo abaixo do título, logo em seguida as tasks com status 'to do' com uma fonte que da contraste com o fundo da página justamente para trazer atenção para estas tasks e por último as tasks com status 'done' para ter um histórico, porém com a task 'riscada' indicando que foi feita e uma cor com menos contraste pois ela não deve mais ser o foco de atenção do usuário;
+   - foi optado também por separar os diferentes status com uma linha mais grossa e com maior contraste e separar as tasks uma das outras também por uma linha, meramente por organização, porém a linha e o contraste é menor do que as que separam os status;
+   - foi escolhido que um placeholder para o input ao invés de um header e que a borda do input fosse arredondada (preferências da dev);
+   - buscando uma interface mais 'friendly' para o usuário, foi definido que os botões (add e delete) mudariam de cor ao passar o mouse em cima de forma que o botão se destacasse indicando sua função (foi associado vermelho para excluir uma task e verde para incluir);
+   - no scprit é puxado o parentNode dentro das funções que alteram o status da task para terem as formatações específicas de cada status via CSS utilizando classes.
 
 ## Melhorias
 
